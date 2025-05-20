@@ -3,10 +3,10 @@ import threading
 from queue import Queue
 from tqdm import tqdm
 
-target = input("Enter target IP (e.g., 127.0.0.1): ")
+target = input("Enter target IP : ")
 start_port = int(input("Enter start port: "))
 end_port = int(input("Enter end port: "))
-num_threads = int(input("Enter number of threads (e.g., 10): "))
+num_threads = int(input("Enter number of threads : "))
 
 queue = Queue()
 open_ports = []
