@@ -1,0 +1,2 @@
+Port 135 is open
+Port 139 is open
